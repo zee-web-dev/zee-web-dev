@@ -1,0 +1,118 @@
+.login {
+  font-size: 17px;
+  color: white;
+  background: #fd5f00;
+  border-radius: 0;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 8px 22px;
+}
+
+.login:hover {
+  border: 1px solid #fd5f00;
+  background: white;
+  color: #fd5f00;
+}
+
+.nav-link {
+  color: white!important;
+  padding: 10px 15px!important;
+}
+
+.nav-link.active {
+  color: #fd5f00!important;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.7)!important;
+}
+
+.list-circle {
+  height: 10px!important;
+  width: 10px!important;
+  border-radius: 50%;
+  background: #fd5f00!important;
+  border: 0!important;
+}
+
+.join-form {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid rgb(213,202,198) !important;
+  border-radius: 0;
+  color: rgb(220,213,213);
+  font-size: 20px;
+  padding-left: 0px;
+  margin-top: 17px;
+}
+
+.join-select {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid rgb(213,202,198) !important;
+  border-radius: 1px;
+  color: rgb(217,200,193)!important;
+  margin-top: 10px;
+  padding-left: 0;
+}
+
+.form-control:focus {
+  background: transparent;
+  color: rgb(217,200,193)!important;
+  outline: none!important;
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+option {
+  background-color: transparent;
+}
+
+.nav-link:hover {
+  color: #fd5f00!important;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+.tab-link {
+  color: black !important;
+  font-size: 16px;
+  background: #f9f9f9;
+  padding: 13px 55px!important;
+  margin-right: 3px;
+  border: 1px solid #dee2e6!important;
+  border-radius: 0px !important;
+  border-bottom: 1px solid transparent!important;
+}
+
+.con-in {
+  /*border: 0;*/
+  border-radius: 0;
+  color: #9999;
+  border: 1px solid #2222!important;
+}
+
+.btn-msg:hover {
+  background: transparent!important;
+  color: #fd5f00 !important;
+  border: 1px solid #fd5f00;
+}
+
+body {
+  font-family: 'Lato';
+}
+
+.form-control.alumni-frm {
+  border-radius: 0;
+}
+
+.form-control.alumni-frm:focus {
+  color: #495057!important;
+  border: 1px solid #495057!important;
+}
+
